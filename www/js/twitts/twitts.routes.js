@@ -10,7 +10,7 @@
       views: {
         'twitts-tab': {
           templateUrl: 'js/twitts/twitts.html',
-          controller: 'TwittsCtrl'
+          controller: 'VideosCtrl'
         }
       }
     })
