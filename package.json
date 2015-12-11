@@ -1,6 +1,6 @@
 {
-  "name": "lb-ngIonic",
-  "description": "Kickstart Your Ionic Project with Nodejs LoopBack backend in seconds !",
+  "name": "Nation",
+  "description": "A better News App for NationMediaGroup",
   "version": "0.0.1",
   "dependencies": {
     "gulp": "^3.9.0",

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<widget id="lb.ngIonic.starter.ionic" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-  <name>lb-ngIonic</name>
+<widget id="com.a.nation" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+  <name>Nation</name>
   <description>
-    Kickstart Your Ionic Project with Nodejs LoopBack backend in seconds !
+A better News App for NationMediaGroup
   </description>
   <author email="denzjoseph@gmail.com" href="http://twitter.com/denzelwamburu">Denzel Wamburu</author>
   <content src="index.html"/>
