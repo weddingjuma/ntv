@@ -1,0 +1,15 @@
+<ion-pane>
+
+  <ion-content class="has-header">
+    <div class="list card" ng-repeat="video in videos">
+      <div class="item item-text-wrap">
+        <h2>{{video.snippet.title}}</h2>
+        <p>{{video.snippet.publishedAt | limitTo: 10}}</p>
+      </div>
+      <div class="item item-image">
+        <img ng-src="{{video.snippet.thumbnails.high.url}}">
+      </div>
+
+    </div>
+  </ion-content>
+</ion-pane>

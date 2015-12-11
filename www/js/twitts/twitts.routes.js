@@ -9,8 +9,8 @@
       url: '/twitts',
       views: {
         'twitts-tab': {
-          templateUrl: 'js/twitts/twitts.html',
-          controller: 'TwittsCtrl'
+          templateUrl: 'js/videos/videos.html',
+          controller: 'VideosCtrl'
         }
       }
     })

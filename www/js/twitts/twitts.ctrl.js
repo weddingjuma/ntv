@@ -14,6 +14,22 @@
     thumbnails: "http://i.ytimg.com/vi/NA2VerbOyt0/maxresdefault.jpg",
   }
 ];
+//youtube deatails
+$scope.youtubeParams = {
+     key: ' AIzaSyDUFcMJM8s9QsTaFy-Z84eootpy986FuUY ',
+     type: 'video',
+     maxResults: '5',
+     part: 'id,snippet',
+     q: 'YOUR SERACH KEYWORDS',
+     order: 'date',
+     channelId: 'UCekTpzKodObpOcmvVCFUvTws',
+   }
+
+   $http.get('https://www.googleapis.com/youtube/v3/search', {params:$scope.youtubeParams}).success(function(response){
+     angular.forEach(response.items, function(child){
+       console.log (child);
+     });
+   });
   })
     .controller('TwittsCtrl', TwittsCtrl);
 
