@@ -1,5 +1,3 @@
-(function(){
-  'use strict';
   angular.module('app.videos')
     .controller('VideosCtrl', function($scope, $http){
       $scope.videos = [
@@ -13,6 +11,5 @@
       date: "5-7-2015",
       thumbnails: "http://i.ytimg.com/vi/NA2VerbOyt0/maxresdefault.jpg",
     }
-      ]
-    });
-})();
+  ];
+    })
