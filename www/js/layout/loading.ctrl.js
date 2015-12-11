@@ -14,7 +14,7 @@
     function redirect(){
       $timeout(function(){
         if (User.getCachedCurrent() == null) {
-          $state.go('signin');
+          $state.go('app.tabs.twitts');
         } else {
           $state.go('app.tabs.twitts');
         }

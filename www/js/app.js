@@ -1,6 +1,6 @@
 (function(){
   'use strict';
-  angular.module('app', ['ionic', 'ionic-material', 'ngCordova', 'LocalForageModule', 'lbServices', 'ngResource', 'app.login', 'app.register', 'app.account'])
+  angular.module('app', ['ionic', 'ionic-material', 'ngCordova', 'LocalForageModule', 'ngResource', 'app.login', 'app.register', 'app.account'])
     .config(configure)
 //    .run(runBlock);
 .run(function(User, $ionicPlatform, $rootScope, $location, $ionicPopup) {
@@ -38,7 +38,7 @@
     return {
         responseError: function(rejection) {
             console.log("Redirect");
-            if (rejection.status == 401 && $location.path() !== '/signin' && $location.path() !== '/register') {
+            if (rejection.status == 401 && $location.path() !== '#/app/tabs/twitts' && $location.path() !== '#/app/tabs/twitts') {
                 $location.nextAfterLogin = $location.path();
                 $location.path('#/app/tabs/twitts');
             }
